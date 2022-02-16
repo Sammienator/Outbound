@@ -76,14 +76,7 @@ section{
    color: #fff; 
 }
 
-.card{
-    transition: all 0.5s ease;
-    font-family: 'Lato', sans-serif;
 
-}
-.card:hover{
-    transform: scale(1.1);
-}
 
 
 
@@ -109,9 +102,7 @@ ul li a {
     align-items: center;
 }
  
-.testimonial-card .card-up { height: 120px; overflow: hidden; border-top-left-radius:
-    0.25rem; border-top-right-radius: 0.25rem; } .testimonial-card .avatar { width: 110px;
-    margin-top: -60px; overflow: hidden; border: 3px solid #fff; border-radius: 50%; }
+
 
 
 
