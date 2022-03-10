@@ -25,11 +25,12 @@ small{
     font-weight: 700;
 }
 section{
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .navbar{
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid white;
+    background-color: white;
 }
 .navbar, .nav-link{
     font-size: 12px;
@@ -135,3 +136,11 @@ body {
 .footer-copyright{
     text-align: center;
 }
+.spons{
+    transition: all 0.5s ease;
+
+}
+.spons:hover{
+    transform: scale(1.1);
+}
+
