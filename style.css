@@ -25,12 +25,11 @@ small{
     font-weight: 700;
 }
 section{
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .navbar{
-    border-bottom: 1px solid white;
-    background-color: white;
+    border-bottom: 1px solid gray;
 }
 .navbar, .nav-link{
     font-size: 12px;
@@ -143,4 +142,110 @@ body {
 .spons:hover{
     transform: scale(1.1);
 }
+
+#mydiv{
+    animation: changeBg 40s infinite ease-in-out ;
+    width: auto;
+    height: 200px;
+    background-size: cover;
+    
+
+   
+}
+
+@keyframes changeBg{
+    0%,100%  {background-image: url("images/bbq.jpeg") ;}
+    25% {background-image: url("images/bbq2.jpeg");}
+    50% {background-image: url("images/bbq4.JPG");}
+    75% {background-image: url("images/bbq5.JPG");}
+}
+
+#mydiv2{
+    animation: changeBg2 60s infinite ease-in-out ;
+    width: auto;
+    height: 200px;
+    background-size: cover;
+    
+
+   
+}
+
+@keyframes changeBg2{
+    0%,100%  {background-image: url("images/malewa1.jpg") ;}
+    25% {background-image: url("images/malewa2.jpg");}
+    50% {background-image: url("images/malewa3.jpg");}
+    75% {background-image: url("images/malewa4.jpg");}
+}
+
+#mydiv3 {
+    animation: changeBg3 40s infinite ease-in-out ;
+    width: auto;
+    height: 200px;
+    background-size: cover;
+    
+
+   
+}
+
+@keyframes changeBg3{
+    0%,100%  {background-image: url("images/paint1.JPG") ;}
+    25% {background-image: url("images/paint112.jpg");}
+    50% {background-image: url("images/paint3.JPG");}
+    75% {background-image: url("images/paint4.JPG");}
+}
+
+#mydiv4{
+    animation: changeBg4 60s infinite ease-in-out ;
+    width: auto;
+    height: 200px;
+    background-size: cover;
+    
+
+   
+}
+
+@keyframes changeBg4{
+    0%,100%  {background-image: url("images/re1.jpg") ;}
+    25% {background-image: url("images/re2.jpg");}
+    50% {background-image: url("images/re3.jpg");}
+    75% {background-image: url("images/re5.jpg");}
+}
+
+#mydiv5 {
+    animation: changeBg5 40s infinite ease-in-out ;
+    width: auto;
+    height: 200px;
+    background-size: cover;
+    
+
+   
+}
+
+@keyframes changeBg5{
+    0%,100%  {background-image: url("images/picnic1.jpg") ;}
+    25% {background-image: url("images/picnic2.jpg");}
+    50% {background-image: url("images/picnic3.jpg");}
+    75% {background-image: url("images/picnic4.JPG");}
+}
+
+#mydiv6 {  
+    animation: changeBg6 60s infinite ease-in-out ;
+    width: auto;
+    height: 200px;
+    background-size: cover;
+    
+
+   
+}
+
+@keyframes changeBg6{
+    0%,100%  {background-image: url("images/pic1.jpg") ;}
+    25% {background-image: url("images/pic2.jpg");}
+    50% {background-image: url("images/pic3.jpg");}
+    75% {background-image: url("images/pic4.jpg");}
+}
+#mydiv, #mydiv2,#mydiv3,#mydiv4,#mydiv5,#mydiv6 {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
 

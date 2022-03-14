@@ -12,30 +12,26 @@
 </head>
 <body data-bs-spy="scroll" data-bs-target=".navbar">
     
-   
-  <nav class="bg-white  "  style="height: 100%;">
-    <div class="container ">
-      <header class="d-flex flex-wrap  align-items-center justify-content-center justify-content-md-between py-3 mb-4 ">
-          <div style="text-align: center;" >
-            <img style="margin: auto; height: 80px; width: 100px;"  src="images/logos.png" alt="">
 
+    <nav class="navbar fixed-top navbar-expand-sm navbar-light bg-white" style="height: 90px;">
+        <div class="container">
+          <a class="navbar-brand navbar-centre"  href="#">
+            <img style="display: block;margin-right: auto;margin-left: 90%;" src="images/logo.jpg" alt="" width="120" height="75"   >
+                 </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              <a class="nav-link" href="#services">Services</a>
+              <a class="nav-link" href="#events">Events</a>
+              <a class="nav-link" href="#testimonials">A-TEAM</a>
+             
+            </div> 
           </div>
-        
-  
-        <ul class="nav  col-12 col-md-auto mb-2 justify-content-center ms-auto mb-md-0">
-          <li><a href="#home" class="nav-link px-2 link-secondary">Home</a></li>
-          <li><a href="#services" class="nav-link px-2 link-dark">Services</a></li>
-          <li><a href="#events" class="nav-link px-2 link-dark">Events</a></li>
-          <li><a href="#testimonials" class="nav-link px-2 link-dark">A-Team</a></li>
-          <li><a href="#" class="nav-link px-2 link-dark">Contact</a></li>
-        </ul>
-  
-        
-      </header>
-    </div>
-  
-  </nav>
-    
+        </div>
+      </nav>
 
 
       <section id="home">
@@ -154,51 +150,66 @@
                   <div class="row mdb-lightbox">
               
                     <figure  class="col-md-4">
-                      <a href="images/bbq.jpeg" data-size="1600x1067">
-                        <img src="images/bbq.jpeg" class="img-fluid">
-                      
-                    </a>
+                  
+                    <div id="mydiv">
+
+                    </div>
+
                     <figcaption>
                         <h3> BBQ TREATS</h3>
                         <P>Lorem ipsum dolor sit amet consectetur adipisicing elit.</P>
                     </figcaption> 
                     
                     </figure>
+
+
+
+
               
                     <figure   class="col-md-4">
-                      <a href="images/malewa1.jpg" data-size="1600x1067">
-                        <img src="images/malewa1.jpg" class="img-fluid" />
-                      </a>
+                      <div id="mydiv2">
+
+                      </div>
+
                       <figcaption>
                         <h3> Malewa</h3>
                         <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. </P>
                     </figcaption> 
                     </figure>
+
+
               
                     <figure   class="col-md-4">
-                      <a href="images/paint1.JPG" data-size="1600x1067">
-                        <img src="images/paint1.JPG" class="img-fluid" />
-                      </a>
+                      <div id="mydiv3">
+
+                      </div>
+
                       <figcaption>
                         <h3> PAINTBALL</h3>
                         <P>Lorem ipsum dolor sit amet consectetur adipisicing elit.</P>
                     </figcaption> 
                     </figure>
+
+
               
                     <figure     class="col-md-4">
-                      <a href="images/re1.jpg" data-size="1600x1067">
-                        <img src="images/re1.jpg" class="img-fluid" />
-                      </a>
+                      <div id="mydiv4">
+
+                      </div>
+
                       <figcaption>
                         <h3> RE-UNION</h3>
                         <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. </P>
                     </figcaption> 
                     </figure>
+
+
               
                     <figure   class="col-md-4">
-                      <a href="images/picnic1.jpg" data-size="1600x1067">
-                        <img src="images/picnic1.jpg" class="img-fluid" />
-                      </a>
+                      <div id="mydiv5">
+
+                      </div>
+
                       <figcaption>
                         <h3> Crazy picnics</h3>
                         <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. </P>
@@ -208,9 +219,10 @@
                 
               
                     <figure  class="col-md-4">
-                      <a href="images/pic1.jpg" data-size="1600x1067">
-                        <img src="images/pic1.jpg" class="img-fluid" />
-                      </a>
+                      <div id="mydiv6">
+
+                      </div>
+
                       <figcaption>
                         <h3> Outbound Experiences</h3>
                         <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. </P>
@@ -227,8 +239,8 @@
 
 
 
-       
-          <section id="testimonials"  class="container">
+        <section id="testimonials">
+          <section class="container">
                   <div class="row d-flex justify-content-center">
                     <div class="col-md-10 col-xl-8 text-center">
                       <h3 class="mb-4">Meet the OUTBOUND TEAM!!</h3>
@@ -446,88 +458,78 @@
 
 
 
-              <div class="row d-flex justify-content-center ">
-                <div class=" spons col-md-3 mb-2" >
+              <div class="row bg-grey">
+                <div class=" spons col-md-2 mb-2" >
                   
 
                   <div style="text-align: center;">
-                    <img style="height: 100px; width: 100px;  box-shadow:0 10px 20px rgba(0,0,0,0.19),0 6px 6px rgba(0,0,0,0.23);
-                    align-items: center;" src="images/ADVANTAGE.png" alt="">
+                    <img style="height: 100px; width: 100px; align-items: center;" src="images/ADVANTAGE.png" alt="">
                   </div>
 
-                  <h3 class="text-center"> ADVANTAGE</h3>
-                  <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                  <h6 class="text-center"> ADVANTAGE</h6>
+                  <!-- <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p> -->
                 </div>
 
-                <div class=" spons col-md-3 mb-2" >
+                <div class=" spons col-md-2 mb-2" >
                   
 
                   <div style="text-align: center;">
-                    <img style="height: 100px; width: 150px;  box-shadow:0 10px 20px rgba(0,0,0,0.19),0 6px 6px rgba(0,0,0,0.23);
-                    align-items: center;" src="images/BIG KITCHEN.png" alt="">
+                    <img style="height: 100px; width: 150px; align-items: center;" src="images/BIG KITCHEN.png" alt="">
                   </div>
 
-                  <h3 class="text-center"> The big kitchen</h3>
-                  <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                  <h6 class="text-center"> The big kitchen</h6>
+                  <!-- <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p> -->
                 </div>
 
-                <div class="spons col-md-3 mb-2" >
+                <div class="spons col-md-2 mb-2" >
                   
 
                   <div style="text-align: center;">
-                    <img style="height: 100px; width: 100px;    box-shadow:0 10px 20px rgba(0,0,0,0.19),0 6px 6px rgba(0,0,0,0.23);
-                    align-items: center;" src="images/KASAMBE.png" alt="">
+                    <img style="height: 100px; width: 100px; align-items: center;" src="images/KASAMBE.png" alt="">
                   </div>
 
-                  <h3 class="text-center"> Kasambe</h3>
-                  <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                  <h6 class="text-center"> Kasambe</h6>
+                  <!-- <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p> -->
                 </div>
 
 
-              
+                <div class="spons col-md-2 mb-2" >
+                  
+
+                  <div style="text-align: center;">
+                    <img style="height: 100px; width: 100px; align-items: center;" src="images/ADVANTAGE.png" alt="">
+                  </div>
+
+                  <h6 class="text-center"> Advantage</h6>
+                  <!-- <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p> -->
+                </div>
+
+                <div class="spons col-md-2 mb-2" >
+                  
+
+                  <div style="text-align: center;">
+                    <img style="height: 100px; width: 150px; align-items: center;" src="images/BIG KITCHEN.png" alt="">
+                  </div>
+
+                  <h6 class="text-center"> The big kitchen</h6>
+                  <!-- <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p> -->
+                </div>
+
+                <div class="spons col-md-2 mb-2" >
+                  
+
+                  <div style="text-align: center;">
+                    <img style="height: 100px; width: 100px; align-items: center;" src="images/KASAMBE.png" alt="">
+                  </div>
+
+                  <h6 class="text-center"> Kasambe </h6>
+                  
+                </div>
 
                 
 
 
 
-              </div>
-
-              <div class="row d-flex justify-content-center">
-                <div class="spons col-md-3 mb-2" >
-                  
-
-                  <div style="text-align: center;">
-                    <img style="height: 100px; width: 100px;    box-shadow:0 10px 20px rgba(0,0,0,0.19),0 6px 6px rgba(0,0,0,0.23);
-                    align-items: center;" src="images/ADVANTAGE.png" alt="">
-                  </div>
-
-                  <h3 class="text-center"> Advantage</h3>
-                  <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
-                </div>
-
-                <div class="spons col-md-3 mb-2" >
-                  
-
-                  <div style="text-align: center;">
-                    <img style="height: 100px; width: 150px;     box-shadow:0 10px 20px rgba(0,0,0,0.19),0 6px 6px rgba(0,0,0,0.23);
-                    align-items: center;" src="images/BIG KITCHEN.png" alt="">
-                  </div>
-
-                  <h3 class="text-center"> The big kitchen</h3>
-                  <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
-                </div>
-
-                <div class="spons col-md-3 mb-2" >
-                  
-
-                  <div style="text-align: center;">
-                    <img style="height: 100px; width: 100px;    box-shadow:0 10px 20px rgba(0,0,0,0.19),0 6px 6px rgba(0,0,0,0.23);
-                    align-items: center ;"   src="images/unclesam.png" alt="">
-                  </div>
-
-                  <h3 class="text-center"> Uncle SAM </h3>
-                  <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
-                </div>
               </div>
 
             </div>
