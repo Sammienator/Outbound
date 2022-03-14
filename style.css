@@ -53,6 +53,7 @@ section{
     background-position: center;
     display: flex;
     align-items: center;
+    background-color: white;
 }
 #home h1{
     max-width: 550px;
